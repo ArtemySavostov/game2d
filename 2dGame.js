@@ -869,23 +869,23 @@
 	}
 	class Enemy1 extends Enemy {
 		constructor(x, y, mess){
-			super(x, y, 'assets/Enemies/Enemies1/', mess);
+			super(x, y, 'assets/enemies/Enemies1/', mess);
 		}
 	}
 	class Enemy2 extends Enemy {
 		constructor(x, y, mess, isLast){
-			super(x, y, 'assets/Enemies/Enemies2/', mess, isLast);
+			super(x, y, 'assets/enemies/Enemies2/', mess, isLast);
 		}
 		setAttack(){
-			this.img.src = 'assets/Enemies/Enemies2/Attack.png';
+			this.img.src = 'assets/enemies/Enemies2/Attack.png';
 			this.spriteMaxPos = 5;
 		}
 		setDeath(){
-			this.img.src = 'assets/Enemies/Enemies2/Death.png';
+			this.img.src = 'assets/enemies/Enemies2/Death.png';
 			this.spriteMaxPos = 5;
 		}
 		setWalk(){
-			this.img.src = 'assets/Enemies/Enemies2/Walk.png';
+			this.img.src = 'assets/enemies/Enemies2/Walk.png';
 			this.spriteMaxPos = 3;
 		}					
 	}	
