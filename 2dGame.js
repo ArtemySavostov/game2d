@@ -905,15 +905,15 @@
 			canvas.appendChild(this.bullet);
 		}
 		setAttack(){
-			this.img.src = 'assets/Enemies/Enemies3/Attack.png';
+			this.img.src = 'assets/enemies/Enemies3/Attack.png';
 			this.spriteMaxPos = 3;
 		}
 		setDeath(){
-			this.img.src = 'assets/Enemies/Enemies3/Death.png';
+			this.img.src = 'assets/enemies/Enemies3/Death.png';
 			this.spriteMaxPos = 2;
 		}
 		setWalk(){
-			this.img.src = 'assets/Enemies/Enemies3/Walk.png';
+			this.img.src = 'assets/enemies/Enemies3/Walk.png';
 			this.spriteMaxPos = 3;
 		}		
 		checkCollide(){
